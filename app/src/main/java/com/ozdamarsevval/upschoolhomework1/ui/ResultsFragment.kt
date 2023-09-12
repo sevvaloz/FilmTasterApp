@@ -22,24 +22,25 @@ class ResultsFragment : Fragment(R.layout.fragment_results) {
 
         entireInfo = args.entireInform
 
-        binding.txtNameSurnameDynamic.text = entireInfo.userInfo.nameSurname
-        binding.txtEmailDynamic.text = entireInfo.userInfo.email
-        binding.txtPhoneNumberDynamic.text = entireInfo.userInfo.phoneNumber
+        binding.apply {
+            txtNameSurnameDynamic.text = entireInfo.userInfo.nameSurname
+            txtEmailDynamic.text = entireInfo.userInfo.email
+            txtPhoneNumberDynamic.text = entireInfo.userInfo.phoneNumber
 
-        binding.txtFavFilm1Dynamic.text = entireInfo.favFilmInfo.favFilmName
-        binding.txtFavFilm2Dynamic.text = entireInfo.favFilmInfo.favFilmName2
-        binding.txtFavFilm3Dynamic.text = entireInfo.favFilmInfo.favFilmName3
+            txtFavFilm1Dynamic.text = entireInfo.favFilmInfo.favFilmName
+            txtFavFilm2Dynamic.text = entireInfo.favFilmInfo.favFilmName2
+            txtFavFilm3Dynamic.text = entireInfo.favFilmInfo.favFilmName3
 
-        binding.checkBoxAction.isChecked = entireInfo.favFilmInfo.actionGenre
-        binding.checkBoxDramaDynamic.isChecked = entireInfo.favFilmInfo.dramaGenre
-        binding.checkBoxRomantic.isChecked = entireInfo.favFilmInfo.romanticGenre
-        binding.checkBoxHorrorDynamic.isChecked = entireInfo.favFilmInfo.horrorGenre
-        binding.checkBoxScifiDynamic.isChecked = entireInfo.favFilmInfo.scifiGenre
+            checkBoxAction.isChecked = entireInfo.favFilmInfo.actionGenre
+            checkBoxDramaDynamic.isChecked = entireInfo.favFilmInfo.dramaGenre
+            checkBoxRomantic.isChecked = entireInfo.favFilmInfo.romanticGenre
+            checkBoxHorrorDynamic.isChecked = entireInfo.favFilmInfo.horrorGenre
+            checkBoxScifiDynamic.isChecked = entireInfo.favFilmInfo.scifiGenre
 
-        binding.btnBackToFirstPage.setOnClickListener {
-            val action = ResultsFragmentDirections.resultsFragmentToFirstFragment()
-            findNavController().navigate(action)
+            btnBackToFirstPage.setOnClickListener {
+                val action = ResultsFragmentDirections.resultsFragmentToFirstFragment()
+                findNavController().navigate(action)
+            }
         }
     }
-
 }

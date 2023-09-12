@@ -29,12 +29,12 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
             userNameSurname = binding.page2NameSurname.text.toString()
             userEmail = binding.edtTxtEmail.text.toString()
             userPhoneNumber = binding.edtTxtPhoneNumber.text.toString()
-            if(userEmail.isNotEmpty() && userPhoneNumber.isNotEmpty()){
+            if (userEmail.isNotEmpty() && userPhoneNumber.isNotEmpty()) {
                 userInfo = UserInfo(userNameSurname, userEmail, userPhoneNumber)
                 val action = SecondFragmentDirections.secondFragmentToThirdFragment(userInfo)
                 findNavController().navigate(action)
-            } else{
-                showToast(requireContext(),"Make sure you entered everything correctly")
+            } else {
+                showToast(requireContext(), "Make sure you entered everything correctly")
             }
         }
 

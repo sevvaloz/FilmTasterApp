@@ -19,11 +19,11 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
 
         binding.btnStart.setOnClickListener {
             userNameSurname = binding.edtTxtNameSurname.text.toString()
-            if(userNameSurname.isNotEmpty()){
+            if (userNameSurname.isNotEmpty()) {
                 val action = FirstFragmentDirections.firstFragmentToSecondFragment(userNameSurname)
                 findNavController().navigate(action)
-            } else{
-                showToast(requireContext(),"Make sure you entered everything correctly")
+            } else {
+                showToast(requireContext(), "Make sure you entered everything correctly")
             }
         }
     }
