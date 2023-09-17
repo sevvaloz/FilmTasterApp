@@ -31,9 +31,9 @@ class ResultsFragment : Fragment(R.layout.fragment_results) {
             txtFavFilm2Dynamic.text = entireInfo.favFilmInfo.favFilmName2
             txtFavFilm3Dynamic.text = entireInfo.favFilmInfo.favFilmName3
 
-            checkBoxAction.isChecked = entireInfo.favFilmInfo.actionGenre
+            checkBoxActionDynamic.isChecked = entireInfo.favFilmInfo.actionGenre
             checkBoxDramaDynamic.isChecked = entireInfo.favFilmInfo.dramaGenre
-            checkBoxRomantic.isChecked = entireInfo.favFilmInfo.romanticGenre
+            checkBoxRomanticDynamic.isChecked = entireInfo.favFilmInfo.romanticGenre
             checkBoxHorrorDynamic.isChecked = entireInfo.favFilmInfo.horrorGenre
             checkBoxScifiDynamic.isChecked = entireInfo.favFilmInfo.scifiGenre
 
