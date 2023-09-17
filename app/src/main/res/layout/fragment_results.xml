@@ -12,16 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="20dp"
         android:text="Please check the accuracy of your information below:"
         android:textSize="15sp"
-        android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </TextView>
     <TextView
-        android:id="@+id/txt_NameSurname_static"
+        android:id="@+id/txt_nameSurname_static"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -31,71 +31,66 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
     </TextView>
     <TextView
-        android:id="@+id/txt_NameSurname_dynamic"
+        android:id="@+id/txt_nameSurname_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Şevval Özdamar"
+        android:text="xxx"
         android:textSize="17sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_NameSurname_static"
+        app:layout_constraintStart_toEndOf="@+id/txt_nameSurname_static"
         app:layout_constraintTop_toBottomOf="@+id/textView">
     </TextView>
 
     <TextView
-        android:id="@+id/txt_Email_static"
+        android:id="@+id/txt_email_static"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="E-mail: "
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_NameSurname_static">
+        app:layout_constraintTop_toBottomOf="@+id/txt_nameSurname_static">
     </TextView>
     <TextView
-        android:id="@+id/txt_Email_dynamic"
+        android:id="@+id/txt_email_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="ozdamarsevval.01@gmail.com"
+        android:text="xxx"
         android:textSize="17sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_Email_static"
-        app:layout_constraintTop_toBottomOf="@+id/txt_NameSurname_dynamic">
+        app:layout_constraintStart_toEndOf="@+id/txt_email_static"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nameSurname_dynamic">
     </TextView>
 
     <TextView
-        android:id="@+id/txt_PhoneNumber_static"
+        android:id="@+id/txt_phoneNumber_static"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="Phone Number: "
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Email_static">
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_static">
     </TextView>
     <TextView
-        android:id="@+id/txt_PhoneNumber_dynamic"
+        android:id="@+id/txt_phoneNumber_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="5394711728"
+        android:text="xxx"
         android:textSize="17sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_PhoneNumber_static"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Email_dynamic">
+        app:layout_constraintStart_toEndOf="@+id/txt_phoneNumber_static"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_dynamic">
     </TextView>
-
-
-
 
     <Space
         android:id="@+id/space"
         android:layout_width="match_parent"
         android:layout_height="20dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@id/txt_PhoneNumber_static"
+        app:layout_constraintTop_toBottomOf="@id/txt_phoneNumber_static"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
-
-
 
     <TextView
         android:id="@+id/textView2"
@@ -109,36 +104,35 @@
         app:layout_constraintTop_toBottomOf="@+id/space">
     </TextView>
     <TextView
-        android:id="@+id/txt_FavFilm1_dynamic"
+        android:id="@+id/txt_favFilm1_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="La La Land"
+        android:text="xxx"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
     </TextView>
     <TextView
-        android:id="@+id/txt_FavFilm2_dynamic"
+        android:id="@+id/txt_favFilm2_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Interstellar"
+        android:text="xxx"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_FavFilm1_dynamic">
+        app:layout_constraintTop_toBottomOf="@+id/txt_favFilm1_dynamic">
     </TextView>
     <TextView
-        android:id="@+id/txt_FavFilm3_dynamic"
+        android:id="@+id/txt_favFilm3_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Titanic"
+        android:text="xxx"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_FavFilm2_dynamic">
+        app:layout_constraintTop_toBottomOf="@+id/txt_favFilm2_dynamic">
     </TextView>
-
 
     <Space
         android:id="@+id/space2"
@@ -146,7 +140,7 @@
         android:layout_height="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_FavFilm3_dynamic"
+        app:layout_constraintTop_toBottomOf="@+id/txt_favFilm3_dynamic"
         app:layout_constraintBottom_toTopOf="@+id/textView3"/>
 
     <TextView
@@ -161,54 +155,53 @@
         app:layout_constraintTop_toBottomOf="@+id/space2">
     </TextView>
     <CheckBox
-        android:id="@+id/checkBox_Horror_dynamic"
+        android:id="@+id/checkBox_horror_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Horror Movies"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         android:clickable="false"/>
     <CheckBox
-        android:id="@+id/checkBox_Drama_dynamic"
+        android:id="@+id/checkBox_drama_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="Drama Movies"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_Horror_dynamic"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_horror_dynamic"
         android:clickable="false"/>
     <CheckBox
-        android:id="@+id/checkBox_Romantic"
+        android:id="@+id/checkBox_romantic_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="Romantic Movies"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_Drama_dynamic"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_drama_dynamic"
         android:clickable="false"/>
     <CheckBox
-        android:id="@+id/checkBox_Action"
+        android:id="@+id/checkBox_action_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="Action Movies"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_Romantic"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_romantic_dynamic"
         android:clickable="false"/>
     <CheckBox
-        android:id="@+id/checkBox_Scifi_dynamic"
+        android:id="@+id/checkBox_scifi_dynamic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="Sci-fi Movies"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_Action"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_action_dynamic"
         android:clickable="false"/>
 
     <Button
-        android:id="@+id/btn_BackToFirstPage"
+        android:id="@+id/btn_backToFirstPage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -218,6 +211,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
     </Button>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

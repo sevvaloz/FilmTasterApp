@@ -8,7 +8,7 @@ import androidx.navigation.fragment.navArgs
 import com.ozdamarsevval.upschoolhomework1.R
 import com.ozdamarsevval.upschoolhomework1.common.viewBinding
 import com.ozdamarsevval.upschoolhomework1.databinding.FragmentSecondBinding
-import com.ozdamarsevval.upschoolhomework1.model.UserInfo
+import com.ozdamarsevval.upschoolhomework1.data.UserInfo
 import com.ozdamarsevval.upschoolhomework1.utils.showToast
 
 class SecondFragment : Fragment(R.layout.fragment_second) {

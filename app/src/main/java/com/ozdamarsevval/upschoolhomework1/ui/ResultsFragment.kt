@@ -8,7 +8,7 @@ import androidx.navigation.fragment.navArgs
 import com.ozdamarsevval.upschoolhomework1.R
 import com.ozdamarsevval.upschoolhomework1.common.viewBinding
 import com.ozdamarsevval.upschoolhomework1.databinding.FragmentResultsBinding
-import com.ozdamarsevval.upschoolhomework1.model.EntireInfo
+import com.ozdamarsevval.upschoolhomework1.data.EntireInfo
 
 
 class ResultsFragment : Fragment(R.layout.fragment_results) {

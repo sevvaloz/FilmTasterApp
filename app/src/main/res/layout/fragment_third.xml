@@ -24,7 +24,7 @@
             android:id="@+id/page3_NameSurname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Şevval Özdamar"
+            android:text="xxx"
             android:textSize="20sp">
         </TextView>
     </LinearLayout>
@@ -41,7 +41,7 @@
     </TextView>
 
     <EditText
-        android:id="@+id/edtTxt_Film1"
+        android:id="@+id/edtTxt_film1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -50,7 +50,7 @@
         tools:ignore="LabelFor">
     </EditText>
     <EditText
-        android:id="@+id/edtTxt_Film2"
+        android:id="@+id/edtTxt_film2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -59,7 +59,7 @@
         tools:ignore="LabelFor">
     </EditText>
     <EditText
-        android:id="@+id/edtTxt_Film3"
+        android:id="@+id/edtTxt_film3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -80,38 +80,38 @@
         android:layout_marginTop="15dp">
     </TextView>
     <CheckBox
-        android:id="@+id/checkBox_Horror"
+        android:id="@+id/checkBox_horror"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="Horror Movies" />
     <CheckBox
-        android:id="@+id/checkBox_Drama"
+        android:id="@+id/checkBox_drama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="Drama Movies" />
     <CheckBox
-        android:id="@+id/checkBox_Romantic"
+        android:id="@+id/checkBox_romantic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="Romantic Movies" />
     <CheckBox
-        android:id="@+id/checkBox_Action"
+        android:id="@+id/checkBox_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="Action Movies" />
     <CheckBox
-        android:id="@+id/checkBox_Scifi"
+        android:id="@+id/checkBox_scifi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="Sci-fi Movies" />
 
     <Button
-        android:id="@+id/btn_Finish"
+        android:id="@+id/btn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"

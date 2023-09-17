@@ -1,4 +1,4 @@
-package com.ozdamarsevval.upschoolhomework1.model
+package com.ozdamarsevval.upschoolhomework1.data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

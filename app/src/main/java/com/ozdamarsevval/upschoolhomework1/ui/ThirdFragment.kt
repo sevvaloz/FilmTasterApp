@@ -8,9 +8,9 @@ import androidx.navigation.fragment.navArgs
 import com.ozdamarsevval.upschoolhomework1.R
 import com.ozdamarsevval.upschoolhomework1.common.viewBinding
 import com.ozdamarsevval.upschoolhomework1.databinding.FragmentThirdBinding
-import com.ozdamarsevval.upschoolhomework1.model.EntireInfo
-import com.ozdamarsevval.upschoolhomework1.model.FavFilmInfo
-import com.ozdamarsevval.upschoolhomework1.model.UserInfo
+import com.ozdamarsevval.upschoolhomework1.data.EntireInfo
+import com.ozdamarsevval.upschoolhomework1.data.FavFilmInfo
+import com.ozdamarsevval.upschoolhomework1.data.UserInfo
 import com.ozdamarsevval.upschoolhomework1.utils.showToast
 
 class ThirdFragment : Fragment(R.layout.fragment_third) {

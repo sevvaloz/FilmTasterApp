@@ -36,7 +36,7 @@
             app:destination="@id/resultsFragment" />
         <argument
             android:name="UserInform"
-            app:argType="com.ozdamarsevval.upschoolhomework1.model.UserInfo" />
+            app:argType="com.ozdamarsevval.upschoolhomework1.data.UserInfo" />
     </fragment>
     <fragment
         android:id="@+id/resultsFragment"
@@ -50,6 +50,6 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="entireInform"
-            app:argType="com.ozdamarsevval.upschoolhomework1.model.EntireInfo" />
+            app:argType="com.ozdamarsevval.upschoolhomework1.data.EntireInfo" />
     </fragment>
 </navigation>
